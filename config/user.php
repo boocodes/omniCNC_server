@@ -1,7 +1,7 @@
 <?php
 class User{
     private $conn; // connection data
-    private $table_name = "omnicnc"; // table name in db
+    private $table_name = "users"; // table name in db
     private $login; // user login
     private $password; // user passwrd
     private $email; // user email 
