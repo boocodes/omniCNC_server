@@ -7,7 +7,7 @@ class DataBase{
     private $password = $DB_PASSWORD;
     public $conn;
 
-    public function get_connection()
+    public function set_connection()
     {
         try
         {
