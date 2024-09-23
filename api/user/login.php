@@ -22,6 +22,6 @@ if($result)
 else
 {
     http_response_code(400);
-    echo json_encode(array("message"="Wrong login or password"));
+    echo json_encode(array("message"=>"Wrong login or password"));
     return true;
 }
