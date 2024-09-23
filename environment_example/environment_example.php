@@ -1,5 +1,5 @@
 <?php
-$DB_NAME = "";
-$DB_USERNAME = "";
-$DB_PASSWORD = "";
-$HOST = "";
+define ("DB_NAME", "");
+define ("DB_USERNAME", "");
+define ("DB_PASSWORD", "");
+define ("HOST", "");
