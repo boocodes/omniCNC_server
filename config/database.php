@@ -1,10 +1,9 @@
 <?php
-include_once "../environment/environment.php";
 class DataBase{
-    private $host = $HOST;
-    private $db_name = $DB_NAME;
-    private $username = $DB_USERNAME;
-    private $password = $DB_PASSWORD;
+    private $host = getenv("HOST");
+    private $db_name = getenv("DB_NAME");
+    private $username = getenv("DB_USERNAME");
+    private $password = getenv("DB_PASSWORD");
     public $conn;
 
     public function set_connection()
