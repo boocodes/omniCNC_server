@@ -9,7 +9,7 @@ $user->set_connection($db_connection);
 
 $data = json_decode(file_get_contents('php://input'), true);
 
-$user->set_login($data['login']);
+$user->set_login($data['password']);
 $user->set_email($data['email']);
 $result = $user->login_user_by_email();
 
