@@ -1,6 +1,6 @@
 <?php
-include_once "../config/database.php";
-include_once "../config/user.php";
+include_once "../../config/database.php";
+include_once "../../config/user.php";
 $database = new DataBase();
 $db_connection = $database->set_connection();
 
