@@ -1,5 +1,5 @@
 <?php
-include_once "../environment/environment.php"
+include_once "../environment/environment.php";
 class DataBase{
     private $host = $HOST;
     private $db_name = $DB_NAME;
